@@ -146,8 +146,17 @@ footer {
 
 
 /*portfolio images*/
+
+/*identity*/
+
+/*interactive*/
 #shift-mac {
 	background-image: url('images/shift_mac.jpg');
+	background-position: center;
+}
+
+#zm {
+	background-image: url('images/zm.jpg');
 	background-position: center;
 }
 
