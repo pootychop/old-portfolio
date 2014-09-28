@@ -146,6 +146,10 @@ footer {
 
 
 /*portfolio images*/
+#shift-mac {
+	background-image: url('images/shift_mac.jpg');
+	background-position: center;
+}
 
 
 #phones {
