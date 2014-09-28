@@ -1,0 +1,171 @@
+@import 'normalize.css';
+
+
+
+/* ---basic bitches---*/
+html, body {
+	min-height: 100%;
+}
+
+body, a, dt, p, h1 {
+	font-family: 'Exo 2', sans-serif, verdana;
+	font-weight: 200;
+	font-size: 1.5em;
+	line-height: 1.5em;
+	display: block;
+	color: #343434;
+}
+
+dt, a {
+	text-decoration: none;
+}
+
+a {
+	  -webkit-transition: color 0.2s ease-in;
+   -moz-transition: color 0.2s ease-in;
+   -o-transition: color 0.2s ease-in;
+   -ms-transition: color 0.2s ease-in;
+   transition: color 0.2s ease-in;
+}
+
+a:hover {
+	color: #FFDD66;
+}
+
+dd {
+	font-size: 0.8em;
+	line-height: 0.8em;
+	padding-bottom: 10px;
+	position: absolute;
+	text-align: left;
+	left: 306px;
+	width: 320px;
+	margin-top: -32px;
+	opacity: 0;
+	color: #7c7c7c;
+    -webkit-transition: opacity 0.3s ease-in;
+   -moz-transition: opacity 0.3s ease-in;
+   -o-transition: opacity 0.3s ease-in;
+   -ms-transition: opacity 0.3s ease-in;
+   transition: opacity 0.3s ease-in;
+
+}
+
+dt:hover + dd {
+	opacity: 1;
+	display: block;
+}
+
+#portfolio p {
+	font-size: 0.8em;
+}
+
+footer {
+	background-color: #fff;
+	padding: 30px;
+	text-align: center;
+	margin: 0 auto;
+}
+
+
+/* ---utilities---*/
+
+#cornertab {
+	height: 0;
+	width: 300px;
+	border-right: 60px solid transparent;
+	border-bottom: 60px solid transparent;
+	border-top: 60px solid #FFDD66;
+	position: fixed;
+	top: 0;
+	left: -300px;
+	  -webkit-transition: left 0.3s ease-in;
+   -moz-transition: left 0.3s ease-in;
+   -o-transition: left 0.3s ease-in;
+   -ms-transition: left 0.3s ease-in;
+   transition: left 0.3s ease-in;
+}
+
+#cornertab:hover {
+	left: 0;
+}
+
+
+.math {
+	height: 100vh;
+	text-align: right;
+	margin: -109px auto 0;
+	width: 300px;
+	position: relative;
+	top: 50vh;
+	padding-bottom: 109px;
+  	/*transform: translateY(-50%);*/
+}
+
+#gooddesign {
+	border-top: 2px solid #343434;
+	margin-top: 10px;
+	font-size: 1.8em;
+}
+
+
+#plus {
+	text-align: left;
+	float: left;
+}
+
+#portfolio {
+	background-color: #343434;
+	border-top: 16px solid #FFDD66;
+	border-bottom: 16px solid #FFDD66;
+	overflow: auto;
+}
+
+.center {
+	margin: 10px auto;
+	max-width: 1280px;
+}
+
+.info-block, .img-block {
+	float: left;
+	margin: 10px;
+}
+
+.info-block {
+	width: 240px;
+	height: 240px;
+	background-color: #ffffff;
+	padding: 30px;
+}
+
+.img-block {
+	width: 300px;
+	height: 300px;
+	overflow: hidden;
+}
+
+
+/*portfolio images*/
+
+
+#phones {
+	background-image: url('images/phones.jpg');
+	background-position: center;
+}
+
+#strive {
+	background-image: url('images/strive.jpg');
+	background-position: center -60px;
+}
+
+#vectorme {
+	background-image: url('images/vectorme.jpg');
+	background-position: center -60px;
+}
+
+
+
+
+
+
+
