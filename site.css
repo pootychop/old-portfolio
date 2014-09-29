@@ -166,15 +166,22 @@ footer {
 	background-position: center;
 }
 
-
-#phones {
-	background-image: url('images/phones.jpg');
+#tidbitts {
+	background-image: url('images/tidbitts.jpg');
 	background-position: center;
+	background-size: 600px;
 }
 
+/*print*/
 #strive {
 	background-image: url('images/strive.jpg');
 	background-position: center -60px;
+}
+
+/*illustration*/
+#phones {
+	background-image: url('images/phones.jpg');
+	background-position: center;
 }
 
 #vectorme {
