@@ -160,6 +160,12 @@ footer {
 	background-position: 0 center;
 }
 
+#tv {
+	background-image: url('images/tv.jpg');
+	background-position: center -60px;
+	background-size: 400px;
+}
+
 /*interactive*/
 #shift-mac {
 	background-image: url('images/shift_mac.jpg');
@@ -191,7 +197,7 @@ footer {
 
 #vectorme {
 	background-image: url('images/vectorme.jpg');
-	background-position: center -60px;
+	background-position: -180px -60px;
 }
 
 
