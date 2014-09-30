@@ -151,8 +151,6 @@ footer {
 	height: 240px;
 	background-color: #ffffff;
 	padding: 30px;
-	 opacity: 0.8;
-    filter: alpha(opacity=80); /* For IE8 and earlier */
 }
 
 .img-block {
