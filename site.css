@@ -192,8 +192,9 @@ footer {
 
 #tidbitts {
 	background-image: url('images/tidbitts.jpg');
-	background-position: center;
-	background-size: 580px;
+	background-position: center -2px;
+	background-size: 622px;
+	width: 620px;
 }
 
 /*print*/
