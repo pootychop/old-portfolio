@@ -179,6 +179,13 @@ footer {
 	background-size: 400px;
 }
 
+#aea {
+	background-image: url('images/AEA-10.png');
+	background-size: 260px;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
 /*interactive*/
 #shift-mac {
 	background-image: url('images/shift_mac.jpg');
