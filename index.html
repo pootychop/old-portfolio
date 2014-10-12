@@ -4,12 +4,13 @@
 		<link rel="stylesheet" type="text/css" href="site.css"/>
 		<link rel="icon" href="favicon.png" type="image/png">
 		<link href='http://fonts.googleapis.com/css?family=Exo+2:400,200' rel='stylesheet' type='text/css'>
-		<script type="text/javascript" src="javascripts/animated_scrolling.js"></script>
+		<script src="dist/js/bind-polyfill.js"></script>
+		<script src="dist/js/smooth-scroll.js"></script>
 		<title>Julianna Beckert</title>
 	</head>
 	<body>
 		<header id="header">
-			<a href="#header" id="cornertab"><p>It's just simple math.</p></a>
+			<a data-scroll href="#header" id="cornertab"><p>It's just simple math.</p></a>
 			<section id="math">
 				<dl>
 					<dt>integrity</dt>
@@ -31,7 +32,7 @@
 				</div>
 				<div class="img-block" id="ramblen"></div>
 				<div class="img-block" id="tv"></div>
-				<div class="img-block"></div>
+				<div class="img-block" id="aea"></div>
 				<div class="info-block" id="interactive">
 					<h1>Interactive</h1>
 					<p></p>
@@ -54,7 +55,9 @@
 			</div>
 		</section>
 		<footer>
-			<a href="mailto:julianna.beckert@gmail.com?Subject=design work" target="_top">email me</a>
+			<a href="mailto:julianna.beckert@gmail.com?Subject=design%20work" target="_top">email me</a>
+
+			<script>smoothScroll.init();</script>
 		</footer>
 	</body>
 </html>
