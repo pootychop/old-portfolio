@@ -78,6 +78,7 @@ footer {
 
 /* ---utilities---*/
 
+
 #cornertab {
 	height: 0;
 	width: 300px;
@@ -180,6 +181,7 @@ footer {
 	background-repeat: no-repeat;
 }
 
+ 
 #tv {
 	background-image: url('images/tv.jpg');
 	background-position: center -60px;
@@ -231,6 +233,7 @@ footer {
 /*modal*/
 
 .modalDialog {
+	height: 100vh;
 	position: fixed;
 	top: 0;
 	right: 0;
@@ -251,12 +254,23 @@ footer {
 }
 
 .modalDialog > div {
-	/*width: auto;*/
+	width: 80vw;
+	height: 80vh;
+	border: 3px solid #FFDD66;
 	position: relative;
-	margin: 10% auto;
-	padding: 5px 20px 13px 20px;
+	margin: 0 auto;
+	padding: 60px;
 	background: #fff;
+	top: 50%;
+  	transform: translateY(-50%);
+  	overflow: scroll;
 }
+
+.modalDialog > div > img {
+	display: block;
+	margin: 0 auto;
+	width: 80vw;
+	}
 
 .close {
 	color: #343434;
