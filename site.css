@@ -230,6 +230,11 @@ footer {
 	background-position: -180px -60px;
 }
 
+#coc {
+	background-image: url('images/cocmenu.jpg');
+	background-size: 300px;
+}
+
 /*modal*/
 
 .modalDialog {
