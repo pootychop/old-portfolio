@@ -157,14 +157,15 @@ footer {
 }
 
 .img-block {
+	box-sizing: border-box;
 	width: 300px;
 	height: 300px;
 	overflow: hidden;
 	background-color: #fff;
+	border: 3px solid transparent;
 }
 
 .img-block:hover {
-	box-sizing: border-box;
 	border: 3px solid #FFDD66;
 }
 
@@ -176,7 +177,7 @@ footer {
 #ramblen {
 	width: 620px;
 	background-image: url('images/ramblen.jpg');
-	background-position: 0 center;
+	background-position: center;
 	background-size: 600px;
 	background-repeat: no-repeat;
 }
@@ -184,7 +185,7 @@ footer {
  
 #tv {
 	background-image: url('images/tv.jpg');
-	background-position: center -60px;
+	background-position: center;
 	background-size: 400px;
 }
 
