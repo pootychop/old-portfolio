@@ -136,12 +136,27 @@ footer {
 	border-top: 16px solid #FFDD66;
 	border-bottom: 16px solid #FFDD66;
 	overflow: auto;
-
 }
 
 .center {
 	margin: 10px auto;
 	max-width: 1280px;
+}
+
+@media only screen and (max-width: 640px) {
+	.center {
+		width: 320px;
+	}
+}
+@media only screen and (min-width: 640px) and (max-width: 960px) {
+	.center {
+		width: 640px;
+	}
+}
+@media only screen and (min-width: 960px) and (max-width: 1280px) {
+	.center{
+		width: 960px;
+	}
 }
 
 .info-block, .img-block {
