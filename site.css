@@ -143,10 +143,45 @@ footer {
 	max-width: 1280px;
 }
 
+.info-block, .portfolio-img {
+	float: left;
+	margin: 10px;
+}
+
+.info-block {
+	width: 240px;
+	height: 240px;
+	background-color: #ffffff;
+	padding: 30px;
+}
+
+.portfolio-img {
+	box-sizing: border-box;
+	width: 300px;
+	height: 300px;
+	overflow: hidden;
+	background-color: #fff;
+	border: 3px solid transparent;
+}
+
+.portfolio-img-wide {
+	width: 620px;
+}
+
+.portfolio-img:hover {
+	border: 3px solid #FFDD66;
+}
+
+/*media queries*/
+
 @media only screen and (max-width: 640px) {
 	.center {
 		width: 320px;
 	}
+	.portfolio-img-wide {
+	width: 300px;
+}
+
 }
 @media only screen and (min-width: 640px) and (max-width: 960px) {
 	.center {
@@ -159,30 +194,7 @@ footer {
 	}
 }
 
-.info-block, .img-block {
-	float: left;
-	margin: 10px;
-}
 
-.info-block {
-	width: 240px;
-	height: 240px;
-	background-color: #ffffff;
-	padding: 30px;
-}
-
-.img-block {
-	box-sizing: border-box;
-	width: 300px;
-	height: 300px;
-	overflow: hidden;
-	background-color: #fff;
-	border: 3px solid transparent;
-}
-
-.img-block:hover {
-	border: 3px solid #FFDD66;
-}
 
 /*portfolio images*/
 
@@ -190,7 +202,6 @@ footer {
 /*identity*/
 
 #ramblen {
-	width: 620px;
 	background-image: url('images/ramblen.jpg');
 	background-position: center;
 	background-size: 600px;
@@ -226,7 +237,6 @@ footer {
 	background-image: url('images/tidbitts.jpg');
 	background-position: center -2px;
 	background-size: 622px;
-	width: 620px;
 }
 
 /*print*/
