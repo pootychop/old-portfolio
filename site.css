@@ -292,8 +292,8 @@ footer {
 	margin: 0 auto;
 	padding: 60px;
 	background: #fff;
-	top: 0; top: 50vh;
-  	transform: translateY(-20px); transform: translateY(-50vh);
+	top: 50vh;
+	translateY(-50vh);
   	overflow: scroll;
 }
 
