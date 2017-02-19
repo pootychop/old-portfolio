@@ -12,7 +12,8 @@
 		</script>
 		<meta name="google-site-verification" content="jrwNkT598CCNoIxY3LVsaQyP2wa3uYaEX2D2-llrijE" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-		<link rel="stylesheet" type="text/css" href="site.css"/>
+		<link rel="stylesheet" type="text/css" href="css/normalize.css"/>
+		<link rel="stylesheet" type="text/css" href="css/site.css"/>
 		<link rel="icon" href="favicon.png" type="image/png">
 		<link href='http://fonts.googleapis.com/css?family=Exo+2:400,200' rel='stylesheet' type='text/css'>
 		<script src="js/bind-polyfill.js"></script>
@@ -21,8 +22,14 @@
 	</head>
 	<body>
 		<header id="home">
-			<a data-scroll href="#home" id="cornertab"><p>It's just simple math.</p></a>
-			<section id="math">
+			<nav id="cornertab">
+				<a data-scroll href="http://juliannabeckert.com/#home" id="jb"><img src="images/jb.png"></a>
+				<a data-scroll href="http://juliannabeckert.com/#portfolio" class="nav">Work</a>
+				<a href="about/jb.html" class="nav">About</a>
+			</nav>
+			<!-- <a data-scroll href="#home" id="cornertab"><p>It's just simple math.</p></a> -->
+		</header>
+				<section id="math">
 				<div>
 					<dl>
 						<dt>integrity</dt>
@@ -36,41 +43,57 @@
 					<a data-scroll id="gooddesign" href="#portfolio">Good Design</a>
 				</div>
 			</section>
-		</header>
 		<section id="portfolio">
-			<div class="center">
-<!-- Interactive -->
-				<div class="info-block" id="interactive">
-					<h1>Interactive</h1>
-					<p></p>
-				</div>
-<!-- shift -->  <div class="portfolio-img" id="shift-mac"></div>				
-<!-- Z&M -->	<div class="portfolio-img" id="zm"></div>				
-<!-- tidbits --><div class="portfolio-img portfolio-img-wide" id="tidbitts"></div>
-<!-- Identity -->
-				<div class="info-block" id="identity">
-					<h1>Identity</h1>
-				</div>
-<!-- tv -->		<div  class="portfolio-img" id="tv"></div>
-<!-- aea -->
-				<div class="portfolio-img" id="aea"></div>								
-<!-- ramblen -->
-				<div class="portfolio-img portfolio-img-wide" id="ramblen"></div>								
-<!-- Print-->
-				<div class="portfolio-img" id="Print">
-					<h1>Print</h1>
-					<p></p>
-				</div>
-				<a class="portfolio-img" id="coc"></a>				
-				
-				<div class="portfolio-img" id="strive"></div>
-<!-- Illustration -->
-				<div class="info-block" id="illustration">
-					<h1>Illustration</h1>
-					<p></p>
-				</div>
-				<div class="portfolio-img" id="phones"></div>
-				<div class="portfolio-img" id="vectorme"></div>				
+			<div class="port-center">
+<!-- HBN -->  
+				<a class="port-link portfolio-img" href="werk/hangarbynight.html" id="hangarbynight">
+					<div class="overlay">
+    				<div class="text">
+    					<h3>Hangar By Night</h3>
+    				</div>
+  				</div>
+				</a>	
+<!-- convercent -->  
+				<a class="port-link portfolio-img" href="werk/convercent.html" id="convercent">
+					<div class="overlay">
+    				<div class="text">
+    					<h3>Convercent</h3>
+    				</div>
+  				</div>
+				</a>	
+<!-- tv -->
+				<a class="port-link portfolio-img" href="werk/tv-icecream.html" id="tv">
+					<div class="overlay">
+    				<div class="text">
+    					<h3>TV Ice Cream</h3>
+    				</div>
+  				</div>
+				</a>	
+<!-- mwt -->
+				<a class="port-link portfolio-img" href="werk/mwt.html" id="mwt">
+					<div class="overlay">
+    				<div class="text">
+    					<h3>Millennium Wireless Technology</h3>
+    				</div>
+  				</div>
+				</a>	
+<!-- spc -->
+				<a class="port-link portfolio-img" href="werk/spc.html" id="spc">
+					<div class="overlay">
+    				<div class="text">
+    					<h3>Sexpot Comedy</h3>
+    				</div>
+  				</div>
+				</a>	
+<!-- art -->
+				<a class="port-link portfolio-img" href="werk/art.html" id="art">
+					<div class="overlay">
+    				<div class="text">
+    					<h3>Painting &amp; Illustration</h3>
+    				</div>
+  				</div>
+				</a>												
+<!-- 				<div class="portfolio-img" id="vectorme"></div>		 -->		
 			</div>
 		</section>
 		<footer>

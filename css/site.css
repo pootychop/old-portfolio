@@ -1,0 +1,426 @@
+/*colors
+#343434 - dark grey
+#FFDD66 - yellow
+
+*/
+
+
+@import 'normalize.css';
+
+
+
+/* ---basic bitches---*/
+html, body {
+	min-height: 100%;
+	background-color: #fff;
+}
+
+body, a, dt, p, h1 {
+	font-family: 'Exo 2', sans-serif, verdana;
+	font-weight: 200;
+	font-size: 1.5em;
+	line-height: 1.5em;
+	display: block;
+	color: #343434;
+	-webkit-font-smoothing: antialiased;
+}
+h1, h2, h3 {
+	font-weight: 400;
+}
+h1 {
+	font-size: 1.5em;
+	line-height: 1.2em;
+	margin-bottom: 10px;
+}
+h2 {
+	font-size: 1.3em;
+	line-height: 1.3em;
+}
+h3 {
+	font-size: 1em;
+	line-height: 1em;
+}
+
+dt, a {
+	text-decoration: none;
+}
+
+a {
+	border-bottom: 1px solid transparent;
+	-webkit-transition: all 0.2s ease-in;
+   -moz-transition: all 0.2s ease-in;
+   -o-transition: all 0.2s ease-in;
+   -ms-transition: all 0.2s ease-in;
+   transition: all 0.2s ease-in;
+}
+
+a:hover {
+	color: #FFDD66;
+}
+
+dd {
+	font-size: 0.8em;
+	line-height: 0.8em;
+	padding-bottom: 10px;
+	position: absolute;
+	text-align: left;
+	left: 306px;
+	width: 320px;
+	margin-top: -32px;
+	opacity: 0;
+	color: #7c7c7c;
+    -webkit-transition: opacity 0.3s ease-in;
+   -moz-transition: opacity 0.3s ease-in;
+   -o-transition: opacity 0.3s ease-in;
+   -ms-transition: opacity 0.3s ease-in;
+   transition: opacity 0.3s ease-in;
+
+}
+
+dt:hover + dd {
+	opacity: 1;
+	display: block;
+}
+
+p {
+	font-size: 0.8em;
+	margin: 10px 0;
+}
+
+ul {
+	margin-bottom: 10px;
+	display: block;
+	font-weight: 400;
+}
+li {
+    font-size: 1em;
+    line-height: 1.2;
+}
+
+footer {
+	border-top: 8px solid #FFDD66;
+	background-color: #fff;
+	padding: 30px 0 60px;
+	text-align: center;
+	margin: 0 auto;
+	clear: both;
+}
+ video {
+ 	width: 100%;
+ }
+
+/* ---utilities---*/
+
+
+#cornertab {
+	height: 0;
+	width: 300px;
+	border-right: 60px solid transparent;
+	border-bottom: 60px solid transparent;
+	border-top: 60px solid #FFDD66;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 101;
+}
+#jb img {
+	height: 40px
+
+}
+
+#cornertab a {
+	font-size: 1em;
+	top: -50px;
+	left: 50px;
+	position: relative;
+	display: inline;
+	margin-right: 20px;
+	vertical-align: top;
+}
+
+#cornertab a.nav:hover {
+	color: #000;
+	border-bottom: 1px solid #000;
+}
+
+
+#math {
+	height: 600px; height: 100vh;
+}
+
+#math > div {
+	text-align: right;
+	margin: 0 auto;
+	width: 300px;
+	position: relative;
+	top: 30%;
+  transform: translateY(-30%);
+  }
+
+#gooddesign {
+	border-top: 2px solid #343434;
+	margin-top: 10px;
+	font-size: 1.8em;
+}
+
+
+#plus {
+	text-align: left;
+	float: left;
+}
+
+#portfolio {
+	background-color: #e4e4e4;
+	border-top: 8px solid #FFDD66;
+	overflow: auto;
+	display: -webkit-box;
+}
+
+.port-center {
+	margin: 60px auto;
+	max-width: 1280px;
+}
+
+.info-block, .portfolio-img {
+	float: left;
+	margin: 10px;
+}
+
+.info-block {
+	width: 240px;
+	height: 240px;
+	background-color: #ffffff;
+	padding: 30px;
+}
+
+.portfolio-img {
+	box-sizing: border-box;
+	width: 300px;
+	height: 300px;
+	overflow: hidden;
+	background-color: #fff;
+}
+
+.portfolio-img-wide {
+	width: 620px;
+}
+
+
+/*werks*/
+.center {
+	width: 80%;
+	margin: 10px auto;
+} 
+
+
+#info {
+	width: 25%;
+	float: left;
+}
+
+#images {
+	width: 70%;
+	float: right;
+	margin-left: 5%;
+}
+
+#images div {
+	margin-bottom: 30px;
+}
+#images img {
+	box-shadow: 1px 2px 6px grey;
+}
+
+.big-image img{
+	width: 100%;
+}
+
+.lil-image img{
+	width: 50%;
+}
+
+#close a {
+	position: fixed;
+	top: 0;
+	right: 0;
+	padding: 0px 16px 8px;
+	background-color: #343434;
+	color: #fff;
+	line-height: 1.0em;
+	z-index: 0;
+}
+
+#close a:hover {
+	color: #FFDD66;
+}
+
+
+/*identity*/
+
+#hangarbynight {
+	background-image: url('../images/werk-hbn/HangarByNight-logo.jpg');
+	background-position: center;
+	background-size: 80%;
+	background-repeat: no-repeat;
+}
+
+#ramblen {
+	background-image: url('../images/ramblen.jpg');
+	background-position: center;
+	background-size: 600px;
+	background-repeat: no-repeat;
+}
+ 
+#tv {
+	background-image: url('../images/werk-tv/tv.jpg');
+	background-position: center;
+	background-size: 400px;
+}
+
+#aea {
+	background-image: url('../images/AEA-10.png');
+	background-size: 260px;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+/*interactive*/
+#mwt {
+	background-image: url('../images/werk-mwt/mwt-site.jpg');
+	background-position: -28px -110px;
+	background-size: 680px;
+}
+
+#convercent {
+	background-image: url('../images/werk-convercent/convercent.jpg');
+	background-position: right -260px;
+}
+
+#shift-mac {
+	background-image: url('../images/shift_mac.jpg');
+	background-position: center;
+}
+
+#zm {
+	background-image: url('../images/zm.jpg');
+	background-position: center;
+}
+
+#tidbitts {
+	background-image: url('../images/tidbitts.jpg');
+	background-position: center -2px;
+	background-size: 622px;
+}
+
+/*print*/
+#strive {
+	background-image: url('../images/strive.jpg');
+	background-position: center -60px;
+}
+
+/*illustration*/
+
+#spc {
+	background-image: url('../images/werk-spc/preview.jpg');
+	background-position: center;
+	background-size: 300px;
+}
+#art {
+	background-image: url('../images/werk-art/bird_stilts.jpg');
+	background-position: left top;
+	background-size: 640px;
+}
+
+#phones {
+	background-image: url('../images/phones.jpg');
+	background-position: center;
+}
+
+#vectorme {
+	background-image: url('../images/vectorme.jpg');
+	background-size: 300px;
+}
+
+#coc {
+	background-image: url('../images/cocmenu.jpg');
+	background-size: 300px;
+}
+
+.port-link {
+	position: relative;
+}
+
+.text {
+	padding: 30px;
+}
+
+a.port-link .overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 300px;
+  width: 300px;
+  opacity: 0;
+  transition: .3s ease;
+	background-color: rgba(51, 51, 51, 0.9);
+}
+
+a.port-link:hover .overlay {
+  opacity: 1;
+}
+header {
+	display: block;
+	height: 80px;
+	z-index: 101;  
+}
+
+/*media queries*/
+
+@media only screen and (max-width: 640px) {
+	.port-center {
+		width: 320px;
+	}
+	.portfolio-img-wide {
+	width: 300px;
+}
+
+}
+@media only screen and (min-width: 640px) and (max-width: 960px) {
+	.port-center {
+		width: 640px;
+	}
+}
+@media only screen and (min-width: 960px) and (max-width: 1280px) {
+	.port-center{
+		width: 960px;
+	}
+}
+
+@media only screen and (max-width: 960px) {
+#info {
+	width: 100%;
+	float: left;
+}
+
+#images {
+	width: 100%;
+	float: none;
+	margin: 0 auto;
+}
+
+.lil-image img{
+	width: 100%;
+	margin: 0 auto
+}
+
+}
+
+
+
+
+
+
+
+
