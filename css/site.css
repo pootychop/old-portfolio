@@ -388,6 +388,29 @@ header {
 	z-index: 101;  
 }
 
+.connect ul li {
+    display: inline-block;
+}
+
+.connect ul li a svg {
+  width: 35px;
+  height: 35px;
+  margin: 0 8px;
+  display: block;
+  overflow: hidden;
+  text-indent: -9999px;
+  border: 1px solid transparent;
+   -webkit-transition: all 0.2s ease-in;
+   -moz-transition: all 0.2s ease-in;
+   -o-transition: all 0.2s ease-in;
+   -ms-transition: all 0.2s ease-in;
+   transition: all 0.2s ease-in;
+}
+.connect ul li a svg:hover {
+	fill:#FFDD66;
+}
+
+
 /*media queries*/
 
 @media only screen and (max-width: 640px) {
