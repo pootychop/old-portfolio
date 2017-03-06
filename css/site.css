@@ -297,6 +297,13 @@ footer {
 	background-position: center;
 	background-size: 100%;
 }
+
+#radius {
+	background-image: url('../images/werk-radius/radius-splash.png');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 90%;
+}
 #mwt {
 	background-image: url('../images/werk-mwt/mwt-site.jpg');
 	background-position: -28px -110px;
