@@ -101,6 +101,11 @@ li {
     line-height: 1.2;
 }
 
+header {
+	display: block;
+	z-index: 101;  
+}
+
 footer {
 	border-top: 8px solid #FFDD66;
 	background-color: #fff;
@@ -112,10 +117,15 @@ footer {
  video {
  	width: 100%;
  }
-
- section {
- 	clear: both;
- }
+section {
+	padding: 80px 0;
+}
+#math {
+	padding: 0;
+}
+section, footer {
+    border-top: 8px solid #FFDD66;
+}
 /* ---utilities---*/
 
 
@@ -156,12 +166,12 @@ footer {
 }
 
 #math > div {
-	text-align: right;
-	margin: 0 auto;
-	width: 300px;
-	position: relative;
-	top: 30%;
-  transform: translateY(-30%);
+    text-align: right;
+    margin: 0 auto;
+    width: 300px;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
   }
 
 #gooddesign {
@@ -184,7 +194,7 @@ footer {
 }
 
 .port-center {
-	margin: 60px auto;
+	margin: 0 auto;
 	max-width: 1280px;
 }
 
@@ -216,7 +226,7 @@ footer {
 /*werks*/
 .center {
 	width: 80%;
-	margin: 10px auto;
+	margin: 0 auto;
 } 
 
 
@@ -248,7 +258,7 @@ footer {
 
 #close a {
 	position: fixed;
-	top: 0;
+	top: 8px;
 	right: 0;
 	padding: 0px 16px 8px;
 	background-color: #343434;
@@ -388,11 +398,6 @@ a.port-link .overlay {
 
 a.port-link:hover .overlay {
   opacity: 1;
-}
-header {
-	display: block;
-	height: 80px;
-	z-index: 101;  
 }
 
 .connect ul li {
