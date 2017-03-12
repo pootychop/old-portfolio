@@ -140,19 +140,29 @@ section, footer {
 	left: 0;
 	z-index: 101;
 }
-#jb img {
-	height: 40px
-
+#jb {
+		color: #000;
+    border: 2px solid #000;
+    background-color: transparent;
+    padding: 4px;
+    height: 30px;
+    width: 30px;
+    border-radius: 30px;
+    line-height: 28px;
+    text-align: center;
+}
+#jb:hover {
+	color: #FFDD66;
+	background-color: #000;
 }
 
 #cornertab a {
 	font-size: 1em;
-	top: -50px;
+	top: -52px;
 	left: 50px;
 	position: relative;
-	display: inline;
+	display: inline-block;
 	margin-right: 20px;
-	vertical-align: top;
 }
 
 #cornertab a.nav:hover {
