@@ -16,8 +16,8 @@ html, body {
 }
 
 body, a, dt, p, h1 {
-	font-family: 'Exo 2', sans-serif, verdana;
-	font-weight: 200;
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
 	font-size: 1.5em;
 	line-height: 1.5em;
 	display: block;
@@ -25,7 +25,7 @@ body, a, dt, p, h1 {
 /*	-webkit-font-smoothing: antialiased;*/
 }
 h1, h2, h3 {
-	font-weight: 400;
+	font-weight: 700;
 }
 h1 {
 	font-size: 1.5em;
@@ -269,9 +269,8 @@ section, footer {
 #close a {
   font-size: 38px;
   position: fixed;
-  top: 8px;
   right: 0;
-  padding: 0px 16px 13px;
+  padding: 8px 16px 13px;
   background-color: #343434;
   color: #fff;
   line-height: 1.0em;
