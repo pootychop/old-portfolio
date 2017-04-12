@@ -283,6 +283,12 @@ section, footer {
 
 
 /*identity*/
+#edj {
+	background-image: url('../images/werk-edj/edj-careerpath-poster.jpg');
+	background-position: center;
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
 
 #hangarbynight {
 	background-image: url('../images/werk-hbn/hangarbynight-logo.jpg');
