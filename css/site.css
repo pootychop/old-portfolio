@@ -114,6 +114,10 @@ footer {
 	margin: 0 auto;
 	clear: both;
 }
+aside {
+	font-size: 0.6em;
+	font-weight: 400;
+}
  video {
  	width: 100%;
  }
@@ -450,6 +454,9 @@ a.port-link:hover .overlay {
 	}
 	#cornertab a {
     left: 20px;
+  }
+  #info a {
+  	font-size:1.1em;
   }
 
 }
