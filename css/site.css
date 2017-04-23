@@ -286,7 +286,14 @@ section, footer {
 }
 
 
-/*identity*/
+/*portfolio*/
+#cintas {
+	background-image: url('../images/werk-cintas/cintas-flyer.jpg');
+	background-position: top right;
+	background-size: 206%;
+	background-repeat: no-repeat;
+}
+
 #edj {
 	background-image: url('../images/werk-edj/edj-careerpath-poster.jpg');
 	background-position: center;
