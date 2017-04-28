@@ -251,6 +251,11 @@ section, footer {
 	float: left;
 }
 
+.info li {
+	list-style-type: disc;
+	margin-left: 1em;
+}
+
 #images {
 	width: 70%;
 	float: right;
@@ -309,13 +314,6 @@ section, footer {
 	background-size: 80%;
 	background-repeat: no-repeat;
 }
-
-#ramblen {
-	background-image: url('../images/ramblen.jpg');
-	background-position: center;
-	background-size: 600px;
-	background-repeat: no-repeat;
-}
  
 #tv {
 	background-image: url('../images/werk-tv/tv.jpg');
@@ -323,14 +321,6 @@ section, footer {
 	background-size: 400px;
 }
 
-#aea {
-	background-image: url('../images/AEA-10.png');
-	background-size: 260px;
-	background-position: center;
-	background-repeat: no-repeat;
-}
-
-/*interactive*/
 #anew {
 	background-image: url('../images/werk-anew/anew-preview.jpg');
 	background-position: center;
@@ -354,30 +344,6 @@ section, footer {
 	background-position: right -260px;
 }
 
-#shift-mac {
-	background-image: url('../images/shift_mac.jpg');
-	background-position: center;
-}
-
-#zm {
-	background-image: url('../images/zm.jpg');
-	background-position: center;
-}
-
-#tidbitts {
-	background-image: url('../images/tidbitts.jpg');
-	background-position: center -2px;
-	background-size: 622px;
-}
-
-/*print*/
-#strive {
-	background-image: url('../images/strive.jpg');
-	background-position: center -60px;
-}
-
-/*illustration*/
-
 #spc {
 	background-image: url('../images/werk-spc/preview.jpg');
 	background-position: center;
@@ -389,7 +355,43 @@ section, footer {
 	background-size: 640px;
 }
 
-#phones {
+/*#ramblen {
+	background-image: url('../images/ramblen.jpg');
+	background-position: center;
+	background-size: 600px;
+	background-repeat: no-repeat;
+}*/
+
+/*#aea {
+	background-image: url('../images/AEA-10.png');
+	background-size: 260px;
+	background-position: center;
+	background-repeat: no-repeat;
+}*/
+
+/*#shift-mac {
+	background-image: url('../images/shift_mac.jpg');
+	background-position: center;
+}
+*/
+/*#zm {
+	background-image: url('../images/zm.jpg');
+	background-position: center;
+}
+
+#tidbitts {
+	background-image: url('../images/tidbitts.jpg');
+	background-position: center -2px;
+	background-size: 622px;
+}
+
+
+#strive {
+	background-image: url('../images/strive.jpg');
+	background-position: center -60px;
+}*/
+
+/*#phones {
 	background-image: url('../images/phones.jpg');
 	background-position: center;
 }
@@ -397,12 +399,12 @@ section, footer {
 #vectorme {
 	background-image: url('../images/vectorme.jpg');
 	background-size: 300px;
-}
+}*/
 
-#coc {
+/*#coc {
 	background-image: url('../images/cocmenu.jpg');
 	background-size: 300px;
-}
+}*/
 
 .port-link {
 	position: relative;
