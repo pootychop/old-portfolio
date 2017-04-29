@@ -251,9 +251,12 @@ section, footer {
 	float: left;
 }
 
-.info li {
+.info li, .text li {
 	list-style-type: disc;
 	margin-left: 1em;
+}
+.text li {
+	font-size: 0.6em;
 }
 
 #images {
