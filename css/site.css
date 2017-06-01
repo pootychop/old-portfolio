@@ -44,6 +44,11 @@ h3 {
 	line-height: 1em;
 	padding: 10px 0 5px;
 }
+h4 {
+	font-size: 0.8em;
+	line-height: 1em;
+	padding: 10px 0 0;
+}
 
 dt, #math a {
 	line-height: 1.5;
@@ -297,6 +302,13 @@ section, footer {
 
 
 /*portfolio*/
+#tdf {
+	background-image: url('../images/werk-tdf/tdf-logo.png');
+	background-position: center;
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
 #cintas {
 	background-image: url('../images/werk-cintas/cintas-flyer.jpg');
 	background-position: top right;
