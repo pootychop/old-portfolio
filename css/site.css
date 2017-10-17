@@ -302,6 +302,13 @@ section, footer {
 
 
 /*portfolio*/
+#wg {
+	background-image: url('../images/werk-williams/williamsgroup-logo-preview.jpg');
+	background-position: center;
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
 #tdf {
 	background-image: url('../images/werk-tdf/tdf-logo.png');
 	background-position: center;
