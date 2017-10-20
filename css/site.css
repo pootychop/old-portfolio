@@ -16,17 +16,17 @@ html, body {
 }
 
 body, a, dt, p, h1 {
-	font-family: 'Lato', sans-serif;
-	font-weight: 400;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 300;
 	font-size: 1.5em;
 	line-height: 1;
 	display: block;
 	color: #343434;
 /*	-webkit-font-smoothing: antialiased;*/
 }
-h1, h2, h3 {
-	font-weight: 700;
-}
+/*h1, h2, h3 {
+	font-weight: 400;
+}*/
 h1 {
 	font-size: 1.5em;
 	line-height: 1.2em;
@@ -35,7 +35,7 @@ h1 {
 h2 {
 	font-size: 1.3em;
 	line-height: 1.3em;
-	border-bottom: 1px solid #000;
+	border-bottom: 1px solid #343434;
 	padding-bottom: 10px;
 	margin-bottom: 10px;
 }
@@ -62,6 +62,7 @@ a {
    -o-transition: all 0.2s ease-in;
    -ms-transition: all 0.2s ease-in;
    transition: all 0.2s ease-in;
+   font-size: 1em;
 }
 
 a:hover {
@@ -114,8 +115,6 @@ header {
 }
 
 footer {
-	border-top: 8px solid #FFDD66;
-	background-color: #fff;
 	padding: 30px 0;
 	text-align: center;
 	margin: 0 auto;
@@ -130,55 +129,64 @@ aside {
  }
 section {
 	padding: 80px 0;
+	display: inline-block;
 }
 #math {
 	padding: 0;
+	display: block;
 }
-section, footer {
-    border-top: 8px solid #FFDD66;
-}
+
 /* ---utilities---*/
 
-
+.gradient {
+	position: relative;
+	z-index: 999;
+	height: 8px;
+	background: #FFDD66; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left, #FFDD66 , magenta, cyan); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right, #FFDD66, magenta, cyan); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right, #FFDD66, magenta, cyan); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to right, #FFDD66 , magenta, cyan); /* Standard syntax */
+}
 #cornertab {
 	height: 0;
 	width: 300px;
-	border-right: 60px solid transparent;
-	border-bottom: 60px solid transparent;
-	border-top: 60px solid #FFDD66;
+	border-right: 68px solid transparent;
+	border-bottom: 68px solid transparent;
+	border-top: 68px solid rgba(255, 255, 255, 0.9);
 	position: fixed;
-	top: 0;
+	top: 8;
 	left: 0;
 	z-index: 101;
 }
 #jb {
-		color: #000;
-    border: 2px solid #000;
+		color: #343434;
+    border: 2px solid #343434;
     background-color: transparent;
     padding: 4px;
     height: 30px;
     width: 30px;
     border-radius: 30px;
-    line-height: 28px;
+    line-height: 30px;
     text-align: center;
 }
 #jb:hover {
 	color: #FFDD66;
-	background-color: #000;
+	background-color: #343434;
 }
 
 #cornertab a {
-	font-size: 1em;
-	top: -52px;
-	left: 50px;
-	position: relative;
-	display: inline-block;
-	margin-right: 20px;
+  font-size: 0.9em;
+  top: -52px;
+  left: 50px;
+  position: relative;
+  display: inline-block;
+  margin-right: 20px;
 }
 
 #cornertab a.nav:hover {
-	color: #000;
-	border-bottom: 1px solid #000;
+	color: #343434;
+	border-bottom: 1px solid #343434;
 }
 
 
@@ -207,9 +215,9 @@ section, footer {
 	float: left;
 }
 
-#portfolio {
-	background-color: #e4e4e4;
-	border-top: 8px solid #FFDD66;
+#portfolio, #showcase {
+	background-color: #f1f1f1;
+	border-top: 8px solid #343434;
 	overflow: auto;
 	display: -webkit-box;
 }
@@ -272,9 +280,6 @@ section, footer {
 
 #images div {
 	margin-bottom: 30px;
-}
-#images img {
-	box-shadow: 1px 2px 6px grey;
 }
 
 .big-image img{
@@ -453,6 +458,9 @@ a.port-link:hover .overlay {
   opacity: 1;
 }
 
+#contact a {
+	color: magenta;
+}
 .connect ul li {
     display: inline-block;
 }
