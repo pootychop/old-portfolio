@@ -111,7 +111,7 @@ li {
 
 header {
 	display: block;
-	z-index: 101;  
+	z-index: 101;
 }
 
 footer {
@@ -141,7 +141,7 @@ section {
 .gradient {
 	position: relative;
 	z-index: 999;
-	height: 8px;
+	height: 4px;
 	background: #FFDD66; /* For browsers that do not support gradients */
   background: -webkit-linear-gradient(left, #FFDD66 , magenta, cyan); /* For Safari 5.1 to 6.0 */
   background: -o-linear-gradient(right, #FFDD66, magenta, cyan); /* For Opera 11.1 to 12.0 */
@@ -159,26 +159,11 @@ section {
 	left: 0;
 	z-index: 101;
 }
-#jb {
-		color: #343434;
-    border: 2px solid #343434;
-    background-color: transparent;
-    padding: 4px;
-    height: 30px;
-    width: 30px;
-    border-radius: 30px;
-    line-height: 30px;
-    text-align: center;
-}
-#jb:hover {
-	color: #FFDD66;
-	background-color: #343434;
-}
 
 #cornertab a {
   font-size: 0.9em;
-  top: -52px;
-  left: 50px;
+  top: -90px;
+  left: 20px;
   position: relative;
   display: inline-block;
   margin-right: 20px;
@@ -188,7 +173,13 @@ section {
 	color: #343434;
 	border-bottom: 1px solid #343434;
 }
-
+#cornertab a#jb {
+    width: 60px;
+    height: 60px;
+    background-image: url('../images/julibee-mark_.png');
+    background-size: 60px 60px;
+    top: -68px;
+}
 
 #math {
 	height: 600px; height: 100vh;
@@ -217,7 +208,7 @@ section {
 
 #portfolio, #showcase {
 	background-color: #f1f1f1;
-	border-top: 8px solid #343434;
+	border-top: 4px solid #343434;
 	overflow: auto;
 	display: -webkit-box;
 }
@@ -256,7 +247,7 @@ section {
 .center {
 	width: 80%;
 	margin: 0 auto;
-} 
+}
 
 
 .info {
@@ -348,7 +339,7 @@ section {
 	background-size: 80%;
 	background-repeat: no-repeat;
 }
- 
+
 #tv {
 	background-image: url('../images/werk-tv/tv.jpg');
 	background-position: center;
@@ -541,11 +532,3 @@ a.port-link:hover .overlay {
 }
 
 }
-
-
-
-
-
-
-
-
