@@ -69,7 +69,7 @@ a:hover {
 	color: #FFDD66;
 }
 
-dd {
+/* dd {
 	font-size: 0.8em;
 	line-height: 0.8em;
 	padding-bottom: 10px;
@@ -86,12 +86,12 @@ dd {
    -ms-transition: opacity 0.3s ease-in;
    transition: opacity 0.3s ease-in;
    display: none;
-}
+} */
 
-dt:hover + dd {
+/* dt:hover + dd {
 	opacity: 1;
 	display: block;
-}
+} */
 
 p {
 	font-size: 0.7em;
@@ -181,25 +181,34 @@ section {
     top: -68px;
 }
 
-#math {
+#intro {
 	height: 600px; height: 100vh;
+  display: block;
 }
 
-#math > div {
-    text-align: right;
+#intro a img {
+  width: 60px;
+  margin-top: 60px;
+}
+
+#intro > div {
+    text-align: center;
     margin: 0 auto;
-    width: 300px;
+    max-width: 80%;
     position: relative;
     top: 50%;
     transform: translateY(-50%);
   }
 
-#gooddesign {
-	border-top: 2px solid #343434;
-	margin-top: 10px;
-	font-size: 1.7em;
-}
-
+  #intro #logo {
+    background-image: url('../images/julibee-logo.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 0;
+    font-size: 0;
+    padding: 10%;
+    background-size: 50%;
+  }
 
 #plus {
 	text-align: left;
@@ -380,57 +389,6 @@ section {
 	background-size: 640px;
 }
 
-/*#ramblen {
-	background-image: url('../images/ramblen.jpg');
-	background-position: center;
-	background-size: 600px;
-	background-repeat: no-repeat;
-}*/
-
-/*#aea {
-	background-image: url('../images/AEA-10.png');
-	background-size: 260px;
-	background-position: center;
-	background-repeat: no-repeat;
-}*/
-
-/*#shift-mac {
-	background-image: url('../images/shift_mac.jpg');
-	background-position: center;
-}
-*/
-/*#zm {
-	background-image: url('../images/zm.jpg');
-	background-position: center;
-}
-
-#tidbitts {
-	background-image: url('../images/tidbitts.jpg');
-	background-position: center -2px;
-	background-size: 622px;
-}
-
-
-#strive {
-	background-image: url('../images/strive.jpg');
-	background-position: center -60px;
-}*/
-
-/*#phones {
-	background-image: url('../images/phones.jpg');
-	background-position: center;
-}
-
-#vectorme {
-	background-image: url('../images/vectorme.jpg');
-	background-size: 300px;
-}*/
-
-/*#coc {
-	background-image: url('../images/cocmenu.jpg');
-	background-size: 300px;
-}*/
-
 .port-link {
 	position: relative;
 }
@@ -497,6 +455,10 @@ a.port-link:hover .overlay {
   .info a {
   	font-size:1.1em;
   }
+  #intro #logo {
+    padding: 14%;
+    background-size: 80%;
+  }
 
 }
 @media only screen and (min-width: 640px) and (max-width: 960px) {
@@ -511,9 +473,9 @@ a.port-link:hover .overlay {
 }
 
 @media only screen and (max-width: 960px) {
-	dt:hover + dd {
+	/* dt:hover + dd {
 	display: none;
-}
+} */
 
 .info {
 	width: 100%;
