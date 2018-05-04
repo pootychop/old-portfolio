@@ -279,6 +279,13 @@ section {
 
 
 /*portfolio*/
+#willford {
+	background-image: url('../images/werk-willford/ws-logo-mark.jpg');
+	background-position: center;
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
 #threefifty {
 	background-image: url('../images/werk-350/350.jpg');
 	background-position: center;
