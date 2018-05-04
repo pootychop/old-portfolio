@@ -279,6 +279,13 @@ section {
 
 
 /*portfolio*/
+#sexy-pizza {
+	background-image: url('../images/werk-sexypizza/sexy-pizza-kiss.jpg');
+	background-position: center;
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
 #willford {
 	background-image: url('../images/werk-willford/ws-logo-mark.jpg');
 	background-position: center;
@@ -392,6 +399,7 @@ a.port-link .overlay {
 a.port-link:hover .overlay {
   opacity: 1;
 }
+
 .connect ul li {
     display: inline-block;
 }
