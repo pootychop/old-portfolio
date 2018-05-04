@@ -392,10 +392,6 @@ a.port-link .overlay {
 a.port-link:hover .overlay {
   opacity: 1;
 }
-
-#contact a {
-	color: magenta;
-}
 .connect ul li {
     display: inline-block;
 }
