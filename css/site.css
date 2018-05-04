@@ -279,6 +279,13 @@ section {
 
 
 /*portfolio*/
+#turner {
+	background-image: url('../images/werk-turner/turnerroofing-thumb.jpg');
+	background-position: center;
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
 #calibermind {
 	background-image: url('../images/werk-calibermind/cm-square.jpg');
 	background-position: center;
