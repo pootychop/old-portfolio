@@ -1,4 +1,4 @@
-mathportfolio
+portfolio
 =============
 This is a design portfolio site 
 as well as a HTML CSS project for myself to refresh my skills
