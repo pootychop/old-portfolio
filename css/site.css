@@ -1,0 +1,493 @@
+/*colors
+#343434 - dark grey
+#FFDD66 - yellow
+
+*/
+
+
+@import 'normalize.css';
+
+
+
+/* ---basic bitches---*/
+html, body {
+	min-height: 100%;
+	background-color: #fff;
+}
+
+body, a, dt, p, h1 {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 300;
+	font-size: 1.5em;
+	line-height: 1;
+	color: #343434;
+/*	-webkit-font-smoothing: antialiased;*/
+}
+/*h1, h2, h3 {
+	font-weight: 400;
+}*/
+h1 {
+	font-size: 1.5em;
+	line-height: 1.2em;
+	margin-bottom: 10px;
+}
+h2 {
+	font-size: 1.3em;
+	line-height: 1.3em;
+	border-bottom: 1px solid #343434;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+}
+h3 {
+	font-size: 1em;
+	line-height: 1em;
+	padding: 10px 0 5px;
+}
+h4 {
+	font-size: 0.8em;
+	line-height: 1em;
+	padding: 10px 0 0;
+}
+
+a {
+	text-decoration: none;
+	border-bottom: 1px solid transparent;
+	-webkit-transition: all 0.2s ease-in;
+   -moz-transition: all 0.2s ease-in;
+   -o-transition: all 0.2s ease-in;
+   -ms-transition: all 0.2s ease-in;
+   transition: all 0.2s ease-in;
+   font-size: 1em;
+   color: #e02270;
+}
+
+a:hover {
+  color:#eb008b;
+}
+
+p {
+	font-size: 0.7em;
+	line-height: 1.2;
+	margin: 10px 0;
+}
+
+ul {
+	margin-bottom: 10px;
+	display: block;
+	font-weight: 400;
+}
+li {
+    font-size: 1em;
+    line-height: 1.2;
+}
+
+header {
+	display: block;
+	z-index: 101;
+}
+
+footer {
+	padding: 30px 0;
+	text-align: center;
+	margin: 0 auto;
+	clear: both;
+}
+aside {
+	font-size: 0.6em;
+	font-weight: 400;
+}
+ video {
+ 	width: 100%;
+ }
+section {
+	padding: 80px 0;
+	display: inline-block;
+}
+#math {
+	padding: 0;
+	display: block;
+}
+
+/* ---utilities---*/
+
+.gradient {
+	position: relative;
+	z-index: 999;
+	height: 4px;
+	background: #FFDD66; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left, #FFDD66 , magenta, cyan); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right, #FFDD66, magenta, cyan); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right, #FFDD66, magenta, cyan); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to right, #FFDD66 , magenta, cyan); /* Standard syntax */
+}
+#cornertab {
+	height: 0;
+	width: 340px;
+	border-right: 68px solid transparent;
+	border-bottom: 68px solid transparent;
+	border-top: 68px solid rgba(255, 255, 255, 0.9);
+	position: fixed;
+	top: 8;
+	left: 0;
+	z-index: 101;
+}
+
+#cornertab a {
+  font-size: 0.9em;
+  top: -90px;
+  left: 20px;
+  position: relative;
+  display: inline-block;
+  margin-right: 20px;
+}
+
+#cornertab a.nav:hover {
+	color: #343434;
+	border-bottom: 1px solid #343434;
+}
+#cornertab a#jb {
+    width: 60px;
+    height: 60px;
+    background-image: url('../images/julibee-mark_.png');
+    background-size: 60px 60px;
+    top: -68px;
+}
+
+#intro {
+	height: 600px; height: 100vh;
+  display: block;
+}
+
+#intro a img {
+  width: 60px;
+  margin-top: 60px;
+}
+
+#intro > div {
+    text-align: center;
+    margin: 0 auto;
+    max-width: 80%;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  #intro #logo {
+    background-image: url('../images/julibee-logo.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 0;
+    font-size: 0;
+    padding: 10%;
+    background-size: 50%;
+  }
+
+#plus {
+	text-align: left;
+	float: left;
+}
+
+#portfolio, #showcase {
+	background-color: #f1f1f1;
+	border-top: 4px solid #343434;
+	overflow: auto;
+	display: -webkit-box;
+}
+
+.port-center {
+	margin: 0 auto;
+	max-width: 1280px;
+}
+
+.info-block, .portfolio-img {
+	float: left;
+	margin: 10px;
+}
+
+.info-block {
+	width: 240px;
+	height: 240px;
+	background-color: #ffffff;
+	padding: 30px;
+}
+
+.portfolio-img {
+	box-sizing: border-box;
+	width: 300px;
+	height: 300px;
+	overflow: hidden;
+	background-color: #fff;
+}
+
+.portfolio-img-wide {
+	width: 620px;
+}
+
+
+/*werks*/
+.center {
+	width: 80%;
+	margin: 0 auto;
+}
+
+
+.info {
+	width: 25%;
+	float: left;
+}
+
+.info li, .text li {
+	list-style-type: disc;
+	margin-left: 1em;
+}
+.text li {
+	font-size: 0.6em;
+}
+
+#images {
+	width: 70%;
+	float: right;
+	margin-left: 5%;
+}
+
+#images div {
+	margin-bottom: 30px;
+}
+
+.big-image img{
+	width: 100%;
+}
+
+.lil-image img{
+	width: 50%;
+}
+
+#close a {
+  font-size: 38px;
+  position: fixed;
+  right: 0;
+  padding: 8px 16px 13px;
+  background-color: #343434;
+  color: #fff;
+  line-height: 1.0em;
+  z-index: 102;
+}
+
+#close a:hover {
+	color: #FFDD66;
+}
+
+
+/*portfolio*/
+#turner {
+	background-image: url('../images/werk-turner/turnerroofing-thumb.jpg');
+	background-position: center;
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+#calibermind {
+	background-image: url('../images/werk-calibermind/cm-square.jpg');
+	background-position: center;
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+#sexy-pizza {
+	background-image: url('../images/werk-sexypizza/sexy-pizza-kiss.jpg');
+	background-position: center;
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+#willford {
+	background-image: url('../images/werk-willford/ws-logo-mark.jpg');
+	background-position: center;
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+#threefifty {
+	background-image: url('../images/werk-350/350.jpg');
+	background-position: center;
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+#wg {
+	background-image: url('../images/werk-williams/williamsgroup-logo-preview.jpg');
+	background-position: center;
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+#tdf {
+	background-image: url('../images/werk-tdf/tdf-logo.png');
+	background-position: center;
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+#cintas {
+	background-image: url('../images/werk-cintas/cintas-flyer.jpg');
+	background-position: top right;
+	background-size: 206%;
+	background-repeat: no-repeat;
+}
+
+#edj {
+	background-image: url('../images/werk-edj/edj-careerpath-poster.jpg');
+	background-position: center;
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+#hangarbynight {
+	background-image: url('../images/werk-hbn/hangarbynight-logo.jpg');
+	background-position: center;
+	background-size: 80%;
+	background-repeat: no-repeat;
+}
+
+#tv {
+	background-image: url('../images/werk-tv/tv.jpg');
+	background-position: center;
+	background-size: 400px;
+}
+
+#anew {
+	background-image: url('../images/werk-anew/anew-preview.jpg');
+	background-position: center;
+	background-size: 100%;
+}
+
+#radius {
+	background-image: url('../images/werk-radius/radius-splash.png');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 90%;
+}
+#mwt {
+	background-image: url('../images/werk-mwt/mwt-site.jpg');
+	background-position: -28px -110px;
+	background-size: 680px;
+}
+
+#convercent {
+	background-image: url('../images/werk-convercent/convercent.jpg');
+	background-position: right -260px;
+}
+
+#spc {
+	background-image: url('../images/werk-spc/preview.jpg');
+	background-position: center;
+	background-size: 310px;
+}
+#art {
+	background-image: url('../images/werk-art/bird_stilts.jpg');
+	background-position: left top;
+	background-size: 640px;
+}
+
+.port-link {
+	position: relative;
+}
+
+.text {
+	padding: 30px;
+}
+
+a.port-link .overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 300px;
+  width: 300px;
+  opacity: 0;
+  transition: .3s ease;
+	background-color: rgba(51, 51, 51, 0.9);
+}
+
+a.port-link:hover .overlay {
+  opacity: 1;
+}
+
+.connect ul li {
+    display: inline-block;
+}
+
+.connect ul li a svg {
+  width: 35px;
+  height: 35px;
+  margin: 0 8px;
+  display: block;
+  overflow: hidden;
+  text-indent: -9999px;
+  border: 1px solid transparent;
+   -webkit-transition: all 0.2s ease-in;
+   -moz-transition: all 0.2s ease-in;
+   -o-transition: all 0.2s ease-in;
+   -ms-transition: all 0.2s ease-in;
+   transition: all 0.2s ease-in;
+}
+.connect ul li a svg:hover {
+	fill:#FFDD66;
+}
+
+
+/*media queries*/
+
+@media only screen and (max-width: 640px) {
+	.port-center {
+		width: 320px;
+	}
+	.portfolio-img-wide {
+	width: 300px;
+	}
+	#cornertab a {
+    left: 20px;
+  }
+  .info a {
+  	font-size:1.1em;
+  }
+  #intro #logo {
+    padding: 14%;
+    background-size: 80%;
+  }
+
+}
+@media only screen and (min-width: 640px) and (max-width: 960px) {
+	.port-center {
+		width: 640px;
+	}
+}
+@media only screen and (min-width: 960px) and (max-width: 1280px) {
+	.port-center{
+		width: 960px;
+	}
+}
+
+@media only screen and (max-width: 960px) {
+	/* dt:hover + dd {
+	display: none;
+} */
+
+.info {
+	width: 100%;
+	float: left;
+}
+
+#images {
+	width: 100%;
+	float: none;
+	margin: 0 auto;
+}
+
+.lil-image img{
+	width: 100%;
+	margin: 0 auto
+}
+
+}
